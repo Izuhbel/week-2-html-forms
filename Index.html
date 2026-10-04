@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <form action="/register" method="post">
+
+        <label>Full Name:</label>
+        <input type="text" name="fullname" placeholder="Fullname">
+
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Enter Email" required>
+
+        <label>Password:</label>
+        <input type="password" name="password" placeholder="Password" required>
+
+
+        <div class="form-group">
+
+            <label>Gender:</label>
+
+            <div class="radio-group">
+
+                <label>
+                    <input type="radio" name="gender" value="Male">
+                    Male
+                </label>
+
+                <label>
+                    <input type="radio" name="gender" value="Female">
+                    Female
+                </label>
+
+            </div>
+
+        </div>
+
+
+        <label>Country:</label>
+
+        <select name="country">
+            <option value="Nigeria">Nigeria</option>
+            <option value="Ghana">Ghana</option>
+            <option value="Kenya">Kenya</option>
+            <option value="South Africa">South Africa</option>
+        </select>
+
+
+        <label>About Yourself:</label>
+
+        <textarea name="message" placeholder="Tell us a little about yourself."></textarea>
+
+
+        <div class="checkbox-group">
+
+            <input type="checkbox" name="terms" required>
+            <label>I agree to the terms and conditions.</label>
+
+        </div>
+
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+
+    <h2>Search</h2>
+
+    <form action="/search" method="get">
+
+        <input type="text" name="search" placeholder="Search...">
+        <button type="submit">Search</button>
+
+    </form>
+
+
+    <!-- Part D: What I Learnt -->
+
+    <section class="learning-section">
+
+        <h2>Part D: What I Learnt</h2>
+
+        <ol>
+
+            <li>
+                The action attribute tells the form where to send the information
+                after I submit it.
+            </li>
+
+            <li>
+                The method attribute tells the form how the information should be
+                sent.
+            </li>
+
+            <li>
+                GET is commonly useful for a search form because the search
+                information can appear in the URL, so it can be easily shared or
+                bookmarked.
+            </li>
+
+            <li>
+                POST might be used for a registration form because it is suitable
+                for sending information to a server for processing.
+            </li>
+
+            <li>
+                No. Using POST does not automatically make information secure.
+                HTTPS and other security measures are still needed to protect the
+                information.
+            </li>
+
+        </ol>
+
+    </section>
+
+</body>
+
+</html>

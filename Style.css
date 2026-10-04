@@ -1,0 +1,203 @@
+/* Base Styles */
+
+body {
+    margin: 0;
+    padding: 40px 20px;
+
+    font-family: "Segoe UI", sans-serif;
+    color: #17171A;
+    background-color: #F7F7F9;
+}
+
+
+/* Headings */
+
+h1 {
+    max-width: 520px;
+    margin: 0 auto 24px;
+
+    text-align: center;
+
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h2 {
+    max-width: 520px;
+    margin: 0 auto 16px;
+
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+/* Forms */
+
+form {
+    max-width: 520px;
+    margin: 0 auto 32px;
+    padding: 32px;
+
+    background-color: #FFFFFF;
+
+    border: 1px solid #E8E8ED;
+    border-radius: 20px;
+
+    box-shadow: 0 8px 30px rgba(23, 23, 26, 0.06);
+}
+
+
+/* Labels */
+
+label {
+    display: block;
+    margin-bottom: 8px;
+
+    font-size: 14px;
+    font-weight: 500;
+
+    color: #34343A;
+}
+
+
+/* Text Inputs */
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+
+    padding: 13px 14px;
+    margin-bottom: 20px;
+
+    font-family: "Segoe UI", sans-serif;
+    font-size: 15px;
+
+    color: #17171A;
+    background-color: #FFFFFF;
+
+    border: 1px solid #D9D9E0;
+    border-radius: 10px;
+}
+
+
+/* Input Focus */
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #7B61FF;
+    box-shadow: 0 0 0 3px rgba(123, 97, 255, 0.12);
+}
+
+
+/* Textarea */
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+
+/* Gender */
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.radio-group {
+    display: flex;
+    gap: 20px;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 0;
+}
+
+
+/* Checkbox */
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.checkbox-group label {
+    margin: 0;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: #7B61FF;
+}
+
+
+/* Button */
+
+button {
+    width: 100%;
+    padding: 13px 18px;
+
+    font-family: "Segoe UI", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+
+    color: #FFFFFF;
+    background-color: #7B61FF;
+
+    border: none;
+    border-radius: 10px;
+
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+button:hover {
+    background-color: #684FE6;
+}
+
+
+/* Part D: What I Learnt */
+
+.learning-section {
+    max-width: 520px;
+    margin: 0 auto 32px;
+    padding: 32px;
+
+    background-color: #FFFFFF;
+
+    border: 1px solid #E8E8ED;
+    border-radius: 20px;
+
+    box-shadow: 0 8px 30px rgba(23, 23, 26, 0.06);
+}
+
+.learning-section h2 {
+    margin: 0 0 24px;
+    text-align: left;
+}
+
+.learning-section ol {
+    margin: 0;
+    padding-left: 24px;
+}
+
+.learning-section li {
+    margin-bottom: 16px;
+    line-height: 1.6;
+}
+
+.learning-section li:last-child {
+    margin-bottom: 0;
+}
